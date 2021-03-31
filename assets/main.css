@@ -1,0 +1,9 @@
+.page-enter-active,
+.page-leave-active {
+    transition: all .35s cubic-bezier(.32,.19,.76,.6);
+}
+
+.page-enter,
+.page-leave-active {
+    opacity: 0;
+}
